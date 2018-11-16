@@ -1,5 +1,5 @@
 {
-  "name": "node2es6modules",
+  "name": "node2es6",
   "version": "1.0.0",
   "description": "converts js files written with node modules in mind to support es6 modules.",
   "main": "src/index.js",
