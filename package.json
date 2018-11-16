@@ -1,0 +1,32 @@
+{
+  "name": "node2es6modules",
+  "version": "1.0.0",
+  "description": "converts js files written with node modules in mind to support es6 modules.",
+  "main": "src/index.js",
+  "bin": {
+    "node2es6": "src/index.js"
+  },
+  "scripts": {
+    "test": "node src/index.js test/input.js test/output.js",
+    "serve-test": "http-server test -o -a localhost -c-1",
+    "readme": "document readmeTemplate.md readme.md"
+  },
+  "author": "mahhov",
+  "license": "ISC",
+  "devDependencies": {
+    "de-document-examples": "^1.0.0",
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {},
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahhov/node2es6.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mahhov/node2es6/issues"
+  },
+  "homepage": "https://github.com/mahhov/node2es6#readme"
+}
